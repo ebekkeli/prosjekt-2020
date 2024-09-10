@@ -1,0 +1,40 @@
+body {
+    background-color: #000000;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: #151515;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.shooter {
+    background-color: #fffb00;
+}
+
+.invader { 
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.boom {
+    background-color: red;
+}
+
+.laser {
+    background-color: #00ffff;
+    border-radius: 10px;
+}
+#score{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
